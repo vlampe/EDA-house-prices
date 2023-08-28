@@ -1,51 +1,19 @@
-# ds-project-template
+# King County House Price Dataset
 
-Template for creating ds simple projects
+I completed this EDA as part of the 6-month part-time Data Practitioner bootcamp at [neuefische](https://www.neuefische.de/en) during 5 days (2.5 full work days). It is my first EDA project. 
 
-## Requirements
+The assignment was to explore a dataset of home sales using data analysis techniques to derive recommendations for a fictional client. 
+More information on the assignment can be found in [assignment.md](https://github.com/vlampe/EDA-house-prices/blob/main/assignment.md). 
 
-- pyenv
-- python==3.11.3
+[EDA.ipynb](https://github.com/vlampe/EDA-house-prices/blob/main/EDA.ipynb) is a Jupyter Notebook that describes the steps taken during this EDA, the hypotheses and conclusions. [column_names.md](https://github.com/vlampe/EDA-house-prices/blob/main/column_names.md) includes descriptions of the data set columns. 
+
+[EDA-results.pdf](https://github.com/vlampe/EDA-house-prices/blob/main/EDA-results.pdf) includes a slide-show with the final results and insights for the client. 
 
 ## Setup
 
-One of the first steps when starting any data science project is to create a virtual environment. For this project you have to create this environment from scratch yourself. However, you should be already familiar with the commands you will need to do so. The general workflow consists of... 
+Requirements can be found [here](https://github.com/vlampe/EDA-house-prices/blob/main/requirements.txt). 
 
-* setting the python version locally to 3.11.3
-* creating a virtual environment using the `venv` module
-* activating your newly created environment 
-* upgrading `pip` (This step is not absolutely necessary, but will save you trouble when installing some packages.)
-* installing the required packages via `pip`
-
-At the end, you want to make sure that people who are interested in your project can create an identical environment on their own computer in order to be able to run your code without running into errors. Therefore you can create a `requirements file` and add it to your repository. You can create such a file by running the following command: 
-
-```bash
-pip freeze > requirements.txt
-```
-
-*Note: In rare case such a requirements file created with `pip freeze` might not ensure that another (especially M1 chip) user can install and execute it properly. This can happen if libraries need to be compiled (e.g. SciPy). Then it also depends on environment variables and the actual system libraries.*
-
-### Unit testing (Optional)
-
-If you write python scripts for your data processing methods, you can also write unit tests. In order to run the tests execute in terminal:
-
-```bash
-pytest
-```
-
-This command will execute all the functions in your project that start with the word **test**.
-
-
-### Environment
-
-This repo contains a requirements.txt file with a list of all the packages and dependencies you will need. Before you install the virtual environment, make sure to install postgresql if you haven't done it before.
-
-```bash
-brew update
-brew install postgresql
-```
-
-In order to install the environment you can use the following commands:
+In order to install the virtual environment you can use the following commands:
 
 ```
 pyenv local 3.11.3
@@ -54,3 +22,4 @@ source .venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
+
