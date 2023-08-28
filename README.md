@@ -7,6 +7,8 @@ More information on the assignment can be found in [assignment.md](https://githu
 
 [EDA.ipynb](https://github.com/vlampe/EDA-house-prices/blob/main/EDA.ipynb) is a Jupyter Notebook that describes the steps taken during this EDA, the hypotheses and conclusions. [column_names.md](https://github.com/vlampe/EDA-house-prices/blob/main/column_names.md) includes descriptions of the data set columns. 
 
+[EDA-results.pdf](https://github.com/vlampe/EDA-house-prices/blob/main/EDA-results.pdf) includes a slide-show with the final results and insights for the client. 
+
 ## Setup
 
 Requirements can be found [here](https://github.com/vlampe/EDA-house-prices/blob/main/requirements.txt). 
